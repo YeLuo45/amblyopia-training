@@ -1,0 +1,26 @@
+{
+  "name": "amblyopia-training",
+  "version": "1.0.0",
+  "description": "弱视训练Web应用 - 面向家庭的医学级弱视训练平台",
+  "private": true,
+  "workspaces": [
+    "server",
+    "web"
+  ],
+  "scripts": {
+    "dev": "concurrently \"npm run dev:server\" \"npm run dev:web\"",
+    "dev:server": "npm run dev -w server",
+    "dev:web": "npm run dev -w web",
+    "build": "npm run build:web && npm run build:server",
+    "build:web": "npm run build -w web",
+    "build:server": "npm run build -w server",
+    "install:all": "npm install && npm install -w server && npm install -w web"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "concurrently": "^8.2.2"
+  },
+  "dependencies": {
+    "@remix-run/router": "^1.23.2"
+  }
+}

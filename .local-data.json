@@ -1,0 +1,242 @@
+{
+  "users": [
+    {
+      "id": "703955a0-d434-4b63-bb1e-4554c4963608",
+      "phone": "129033524416",
+      "email": null,
+      "password_hash": "$2a$10$6u3slnFz/5qZ8cZzWv2GJukgpqsWGQj5vbeYzr3.Qed3OLEmfqFka",
+      "nickname": "PassTest",
+      "avatar": null,
+      "role": "parent",
+      "created_at": "2026-04-11T19:35:24.855Z",
+      "updated_at": "2026-04-11T19:35:24.855Z"
+    },
+    {
+      "id": "bf208e24-3245-4a70-8cd7-03669c71b6bb",
+      "phone": "13800138001",
+      "email": null,
+      "password_hash": "$2a$10$tWhyCuqoxltTK3/aqgLCzuui232OM2oZxP2qoaPTeQQCKWIcWxzpC",
+      "nickname": "????",
+      "avatar": null,
+      "role": "parent",
+      "created_at": "2026-04-12T02:07:43.949Z",
+      "updated_at": "2026-04-12T02:07:43.949Z"
+    }
+  ],
+  "families": [
+    {
+      "id": "cd63a89c-a9bc-49c0-860d-cfcd58e9fd01",
+      "name": "PassTest家庭",
+      "owner_id": "703955a0-d434-4b63-bb1e-4554c4963608",
+      "created_at": "2026-04-11T19:35:24.859Z",
+      "updated_at": "2026-04-11T19:35:24.859Z"
+    },
+    {
+      "id": "3a6191f1-86db-49de-91a5-d275de4e3469",
+      "name": "????家庭",
+      "owner_id": "bf208e24-3245-4a70-8cd7-03669c71b6bb",
+      "created_at": "2026-04-12T02:07:43.951Z",
+      "updated_at": "2026-04-12T02:07:43.951Z"
+    }
+  ],
+  "familyMembers": [
+    {
+      "id": "8e47d6ee-4453-4378-9980-8e25a59f1b8d",
+      "family_id": "cd63a89c-a9bc-49c0-860d-cfcd58e9fd01",
+      "user_id": "703955a0-d434-4b63-bb1e-4554c4963608",
+      "role": "owner",
+      "created_at": "2026-04-11T19:35:24.860Z"
+    },
+    {
+      "id": "a5811c2b-e93d-4ded-869d-3740a8759a01",
+      "family_id": "3a6191f1-86db-49de-91a5-d275de4e3469",
+      "user_id": "bf208e24-3245-4a70-8cd7-03669c71b6bb",
+      "role": "owner",
+      "created_at": "2026-04-12T02:07:43.952Z"
+    }
+  ],
+  "children": [
+    {
+      "id": "8c5b13c3-8e86-46ae-86b4-a925bb689d7e",
+      "family_id": "3a6191f1-86db-49de-91a5-d275de4e3469",
+      "name": "????",
+      "gender": "male",
+      "birth_date": "2020-01-01",
+      "avatar": null,
+      "eye_condition": "?????",
+      "diagnosis_date": null,
+      "treatment_phase": "initial",
+      "created_at": "2026-04-12T02:08:02.340Z",
+      "updated_at": "2026-04-12T02:08:02.340Z"
+    }
+  ],
+  "trainingPlans": [
+    {
+      "id": "e68a3763-8227-4216-bafd-c3d12af75f5f",
+      "child_id": "8c5b13c3-8e86-46ae-86b4-a925bb689d7e",
+      "plan_name": "默认计划",
+      "phase": "initial",
+      "daily_duration": 20,
+      "weekly_frequency": 7,
+      "spatial_frequency_level": "medium",
+      "training_mode": "monocular",
+      "dominant_eye": "both",
+      "allowed_games": [],
+      "start_date": null,
+      "end_date": null,
+      "is_active": true,
+      "created_at": "2026-04-12T02:08:02.341Z",
+      "updated_at": "2026-04-12T02:08:02.341Z"
+    }
+  ],
+  "gameConfigs": [
+    {
+      "id": "047b83fc-40b6-4246-bfc9-dc788ac63a27",
+      "child_id": "8c5b13c3-8e86-46ae-86b4-a925bb689d7e",
+      "game_id": "stripe-chase",
+      "spatial_frequency": "medium",
+      "contrast": "medium",
+      "target_size": "medium",
+      "speed": "medium",
+      "is_enabled": true,
+      "created_at": "2026-04-12T02:08:02.342Z",
+      "updated_at": "2026-04-12T02:08:02.342Z"
+    },
+    {
+      "id": "1ffb1c9c-b4ac-467f-92e7-87393446bc69",
+      "child_id": "8c5b13c3-8e86-46ae-86b4-a925bb689d7e",
+      "game_id": "dot-pop",
+      "spatial_frequency": "medium",
+      "contrast": "medium",
+      "target_size": "medium",
+      "speed": "medium",
+      "is_enabled": true,
+      "created_at": "2026-04-12T02:08:02.343Z",
+      "updated_at": "2026-04-12T02:08:02.343Z"
+    },
+    {
+      "id": "f6e8970e-ea80-4243-9bea-dab797ef62c5",
+      "child_id": "8c5b13c3-8e86-46ae-86b4-a925bb689d7e",
+      "game_id": "fusion-puzzle",
+      "spatial_frequency": "medium",
+      "contrast": "medium",
+      "target_size": "medium",
+      "speed": "medium",
+      "is_enabled": true,
+      "created_at": "2026-04-12T02:08:02.344Z",
+      "updated_at": "2026-04-12T02:08:02.344Z"
+    },
+    {
+      "id": "cc67ff3d-475c-488f-8538-4d1802c5e027",
+      "child_id": "8c5b13c3-8e86-46ae-86b4-a925bb689d7e",
+      "game_id": "memory-flip",
+      "spatial_frequency": "medium",
+      "contrast": "medium",
+      "target_size": "medium",
+      "speed": "medium",
+      "is_enabled": true,
+      "created_at": "2026-04-12T02:08:02.345Z",
+      "updated_at": "2026-04-12T02:08:02.345Z"
+    },
+    {
+      "id": "56895052-bb85-492f-bab3-9858ca89bf5f",
+      "child_id": "8c5b13c3-8e86-46ae-86b4-a925bb689d7e",
+      "game_id": "draw-line",
+      "spatial_frequency": "medium",
+      "contrast": "medium",
+      "target_size": "medium",
+      "speed": "medium",
+      "is_enabled": true,
+      "created_at": "2026-04-12T02:08:02.346Z",
+      "updated_at": "2026-04-12T02:08:02.346Z"
+    },
+    {
+      "id": "d0c89865-9090-45b6-a643-7f5b4f2c6790",
+      "child_id": "8c5b13c3-8e86-46ae-86b4-a925bb689d7e",
+      "game_id": "accommodation-lift",
+      "spatial_frequency": "medium",
+      "contrast": "medium",
+      "target_size": "medium",
+      "speed": "medium",
+      "is_enabled": true,
+      "created_at": "2026-04-12T02:08:02.348Z",
+      "updated_at": "2026-04-12T02:08:02.348Z"
+    },
+    {
+      "id": "77b1d53d-e994-445a-93b5-19dec6c52cdd",
+      "child_id": "8c5b13c3-8e86-46ae-86b4-a925bb689d7e",
+      "game_id": "sf-matching",
+      "spatial_frequency": "medium",
+      "contrast": "medium",
+      "target_size": "medium",
+      "speed": "medium",
+      "is_enabled": true,
+      "created_at": "2026-04-12T02:08:02.349Z",
+      "updated_at": "2026-04-12T02:08:02.349Z"
+    },
+    {
+      "id": "e1b0e82a-3f6c-4c13-8027-e01765a37255",
+      "child_id": "8c5b13c3-8e86-46ae-86b4-a925bb689d7e",
+      "game_id": "depth-blocks",
+      "spatial_frequency": "medium",
+      "contrast": "medium",
+      "target_size": "medium",
+      "speed": "medium",
+      "is_enabled": true,
+      "created_at": "2026-04-12T02:08:02.350Z",
+      "updated_at": "2026-04-12T02:08:02.350Z"
+    },
+    {
+      "id": "600112bd-1739-4a1c-ad26-5375053d4496",
+      "child_id": "8c5b13c3-8e86-46ae-86b4-a925bb689d7e",
+      "game_id": "visual-search-maze",
+      "spatial_frequency": "medium",
+      "contrast": "medium",
+      "target_size": "medium",
+      "speed": "medium",
+      "is_enabled": true,
+      "created_at": "2026-04-12T02:08:02.351Z",
+      "updated_at": "2026-04-12T02:08:02.351Z"
+    },
+    {
+      "id": "52b3d37c-b499-475d-a2ff-64687d250bd9",
+      "child_id": "8c5b13c3-8e86-46ae-86b4-a925bb689d7e",
+      "game_id": "quick-match",
+      "spatial_frequency": "medium",
+      "contrast": "medium",
+      "target_size": "medium",
+      "speed": "medium",
+      "is_enabled": true,
+      "created_at": "2026-04-12T02:08:02.352Z",
+      "updated_at": "2026-04-12T02:08:02.352Z"
+    }
+  ],
+  "trainingSessions": [],
+  "gameRecords": [],
+  "reports": [],
+  "reportTokens": [],
+  "notificationSettings": [
+    {
+      "id": "c95d4184-bae0-4541-a41a-0d2c9f8bd7e3",
+      "family_id": "cd63a89c-a9bc-49c0-860d-cfcd58e9fd01",
+      "reminder_enabled": true,
+      "reminder_times": [
+        "09:00",
+        "19:00"
+      ],
+      "created_at": "2026-04-11T19:35:24.861Z",
+      "updated_at": "2026-04-11T19:35:24.861Z"
+    },
+    {
+      "id": "053a43e2-4558-4033-b0b0-e2fd69be51ff",
+      "family_id": "3a6191f1-86db-49de-91a5-d275de4e3469",
+      "reminder_enabled": true,
+      "reminder_times": [
+        "09:00",
+        "19:00"
+      ],
+      "created_at": "2026-04-12T02:07:43.952Z",
+      "updated_at": "2026-04-12T02:07:43.952Z"
+    }
+  ]
+}
